@@ -8,15 +8,6 @@ import {
 
 import lodash from 'lodash';
 
-// jest.mock('lodash', () => {
-//   const originalModule = jest.requireActual('lodash');
-//   return {
-//     _esModule: true,
-//     ...originalModule,
-//     random: () => 1,
-//   };
-// });
-
 describe('BankAccount', () => {
   let newBankAccount: BankAccount;
   let balance = 777;
